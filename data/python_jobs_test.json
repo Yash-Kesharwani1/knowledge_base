@@ -1,0 +1,140 @@
+[
+    {
+        "jobRole": "Python Developer",
+        "job_summary": "Job description  Job Title: Python Full Stack Developer (Freshers)  Location: Chetpet, Chennai Experience: 0-3 Years   ***Important Instructions***  Candidates must carry their own laptop for the interview task/test and hard copy of CV.    About the Role  We are seeking enthusiastic and passionate P...",
+        "employment_type": "Full-time",
+        "seniority_level": "Entry-level",
+        "responsibilities": [
+            "Candidates must carry their own laptop for the interview task/test and hard copy of CV.",
+            "Good exposure to Python and Django..",
+            "Understanding of HTML, CSS, JavaScript, and responsive web design.",
+            "Familiarity with SQL/NoSQL databases such as MySQL, PostgreSQL, or MongoDB.",
+            "Basic understanding of REST APIs and JSON.",
+            "Knowledge of Git or any version control system (added advantage).",
+            "Strong problem-solving skills and willingness to learn new technologies.",
+            "Bachelors degree in Computer Science, Information Technology, Engineering, or related fields.",
+            "Candidates with relevant certifications or internship experience will be a plus.",
+            "Only 2023, 2024, and 2025 passed-out candidates are eligible.**"
+        ],
+        "qualifications": [
+            "UG: Any Graduate"
+        ],
+        "preferred_skills": [
+            "Python",
+            "pandas",
+            "Django"
+        ],
+        "salary_range": "0 - 3 years\nNot Disclosed",
+        "experience_level": "",
+        "scraped_url": "https://www.naukri.com/job-listings-python-developer-indiafilings-chennai-0-to-3-years-020326030847"
+    },
+    {
+        "jobRole": "Python Fullstack Developer",
+        "job_summary": "Job description  Responsibilities:  * Design, develop, test & maintain full-stack applications using Python, Django & React.js  * Collaborate with cross-functional teams on project requirements & deliverables  Role: Full Stack Developer Industry Type: IT Services & Consulting Department: Engineering...",
+        "employment_type": "Full-time",
+        "seniority_level": "Entry-level",
+        "responsibilities": [],
+        "qualifications": [
+            "UG: Any Graduate"
+        ],
+        "preferred_skills": [
+            "Python",
+            "Django",
+            "Postgresql",
+            "Javascript",
+            "Node.Js",
+            "MongoDB",
+            "React.Js"
+        ],
+        "salary_range": "0 - 2 years\n60,000-1.44 Lacs P.A.",
+        "experience_level": "",
+        "scraped_url": "https://www.naukri.com/job-listings-python-fullstack-developer-codeflix-consultancy-services-coimbatore-0-to-2-years-050326012158"
+    },
+    {
+        "jobRole": "Junior Python Developer",
+        "job_summary": "Job description Work on Python development using Pandas Handle databases: MySQL / SQL Server (MongoDB is a plus) Build and maintain APIs using FastAPI / Django Basic exposure to AWS Cloud Willing to learn, write clean code, and support live projects Role: Back End Developer Industry Type: IT Service...",
+        "employment_type": "Full-time",
+        "seniority_level": "Entry-level",
+        "responsibilities": [],
+        "qualifications": [
+            "UG: Any Graduate"
+        ],
+        "preferred_skills": [
+            "Pandas",
+            "Fast Api",
+            "MongoDB",
+            "SQL Server",
+            "Django",
+            "Django Framework",
+            "Python"
+        ],
+        "salary_range": "0 - 2 years\nNot Disclosed",
+        "experience_level": "",
+        "scraped_url": "https://www.naukri.com/job-listings-junior-python-developer-infocrats-web-solutions-indore-0-to-2-years-020226009551"
+    },
+    {
+        "jobRole": "Python Developer",
+        "job_summary": "Job description An opportunity for freshers to join our team as python developer. This role involves an initial training period of six months. Based on performance during the training period, successful candidates will be offered a position as Python Developer in the company. Qualification : Any deg...",
+        "employment_type": "Full-time",
+        "seniority_level": "Entry-level",
+        "responsibilities": [],
+        "qualifications": [
+            "UG: Any Graduate",
+            "PG: Any Postgraduate"
+        ],
+        "preferred_skills": [
+            "Coding",
+            "Database",
+            "Javascript",
+            "Data structures",
+            "Python"
+        ],
+        "salary_range": "0 - 2 years\nNot Disclosed",
+        "experience_level": "",
+        "scraped_url": "https://www.naukri.com/job-listings-python-developer-cybrosys-technologies-pvt-ltd-bengaluru-0-to-2-years-041225503119"
+    },
+    {
+        "jobRole": "Python Backend Developer",
+        "job_summary": "Job description Opening Summary We are hiring a Python Backend Developer who can design and build scalable backend systems, APIs, and microservices that power business-critical applications. The ideal candidate has strong command over Python frameworks, database interactions, and cloud-native develo...",
+        "employment_type": "Full-time",
+        "seniority_level": "Entry-level",
+        "responsibilities": [
+            "Strong hands-on Python backend development experience in production environments",
+            "Experience with Django, FastAPI, or Flask for API-driven development",
+            "Strong understanding of relational or NoSQL databases and ORM frameworks",
+            "Experience integrating APIs, authentication, and event-driven messaging systems",
+            "Familiarity with Docker and Git-based CI/CD pipelines",
+            "Clear understanding of security best practices for backend applications",
+            "Ability to debug and optimize performance across services and databases",
+            "Strong understanding of Agile workflows and engineering best practices",
+            "Design and develop backend services and REST/GraphQL APIs using Python.",
+            "Build scalable, secure, and modular microservices and event-driven components.",
+            "Integrate with internal and third-party APIs, authentication services, and messaging systems.",
+            "Work with SQL and NoSQL databases to implement efficient, reliable persistence layers.",
+            "Optimize application performance, security, caching, logging, and error handling.",
+            "Write automated unit and integration tests to ensure reliable deployments.",
+            "Collaborate with frontend, QA, DevOps, and product teams throughout SDLC.",
+            "Support deployments through CI/CD workflows and containerized environments.",
+            "Troubleshoot production issues with structured root-cause analysis and permanent fixes.",
+            "Ownership mindset backed by high accountability",
+            "Strong analytical and problem-solving abilities",
+            "Ability to communicate clearly with technical and non-technical stakeholders",
+            "Continuous learner with genuine curiosity to improve systems and skills"
+        ],
+        "qualifications": [
+            "UG: Any Graduate",
+            "PG: Any Postgraduate"
+        ],
+        "preferred_skills": [
+            "Automation",
+            "Backend",
+            "Django",
+            "Analytical",
+            "Open source",
+            "Python"
+        ],
+        "salary_range": "0 - 2 years\nNot Disclosed",
+        "experience_level": "",
+        "scraped_url": "https://www.naukri.com/job-listings-python-backend-developer-technix-technology-patna-0-to-2-years-041225500773"
+    }
+]

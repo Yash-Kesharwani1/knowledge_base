@@ -7,7 +7,8 @@ from playwright_stealth import Stealth
 class NaukriCrawler:
     def __init__(self):
         # Directly targeting Python Developer, 0-2 years
-        self.search_url = "https://www.naukri.com/python-developer-jobs-in-india-0-to-2-years"
+        self.search_url = "https://www.naukri.com/python-developer-jobs-10?k=python+developer&qproductJobSource=2&naukriCampus=true&nignbevent_src=jobsearchDeskGNB&experience=2"
+        
         self.links = []
 
     def run(self):
@@ -34,9 +35,25 @@ class NaukriCrawler:
                 if next_btn.is_visible():
                     next_btn.click()
                     time.sleep(random.uniform(2, 4))
-            
+
+            # 1. Load existing links if the file exists
+            existing_links = []
+            try:
+                with open("data/raw_links.json", "r") as f:
+                    existing_links = json.load(f)
+            except (FileNotFoundError, json.JSONDecodeError):
+                # If file doesn't exist or is empty, start with an empty list
+                existing_links = []
+
+            # 2. Combine existing and new links
+            # Using a set automatically handles deduplication
+            combined_links = list(set(existing_links + self.links))
+
+            # 3. Write the updated list back to the file
             with open("data/raw_links.json", "w") as f:
-                json.dump(list(set(self.links)), f, indent=4)
+                json.dump(combined_links, f, indent=4)
+            
+            print(f"Update complete. Total links stored: {len(combined_links)}")
             browser.close()
 
 if __name__ == "__main__":
