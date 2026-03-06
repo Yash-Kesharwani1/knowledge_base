@@ -89,8 +89,12 @@ if __name__ == "__main__":
     # # Ensure this path is correct based on your 'src' vs root execution
     # kb.upload_jobs("data/python_jobs.json")
     
-    results = kb.search_jobs("Freshers with Django and MySQL experience")
+    results = kb.search_jobs("Python Developer with 2 year of experience")
 
     for res in results:
         # Accessing payload directly from the ScoredPoint object
-        print(f"Score: {res.score:.4f} | Job: {res.payload.get('jobRole')}")
+        print("-------------------------------------------------")
+        print("-------------------------------------------------")
+        print(f"Score: {res.score:.4f} | Job: {res.payload}")
+        print("-------------------------------------------------")
+        print("-------------------------------------------------")
