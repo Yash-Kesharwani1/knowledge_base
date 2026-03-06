@@ -11,8 +11,8 @@ class JobKnowledgeBase:
     def __init__(self, collection_name="job"):
         # Replace these with your actual cloud credentials
         # It's best practice to use environment variables for security
-        self.url="https://2a1bb9b6-14d3-45cd-96f5-60a3f44a2059.eu-central-1-0.aws.cloud.qdrant.io"
-        self.api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.17ZD6Qfp4dOdQDEF0V41AOh-18pov28E_ZX4eUN3n-E"
+        self.url=os.getenv("QDRANT_URL") 
+        self.api_key=os.getenv("QDRANT_API_KEY")
         
         # Connect to Qdrant Cloud
         self.client = QdrantClient(
